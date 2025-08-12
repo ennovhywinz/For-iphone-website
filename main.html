@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>tvkaizen</title>
+    <link rel="icon" type="image/png" href="images/yukSStN.png">
+    <script src="scripts/shaka-player.compiled.js"></script>
+    <script src="scripts/shaka-player.ui.js"></script>
+    <script src="scripts/sega.js"></script>
+    <script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.0.5/controls.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    <div class="menu-box" id="menu">
+        <a href="" onclick="SetDest(this);"> Telegram </a>
+        <a href="" onclick="SetDa(this);"> GCash QR (Support!) </a>
+        <a onclick="logout()">Logout</a>
+    </div>
+    
+    <h1><i>TV KAIZEN</i></h1>
+    
+    <div id="video-container">
+        <video id="video-player" autoplay=""></video>
+    </div>
+
+    <div id="channel-selector"></div>
+        
+    <div class="navigation-buttons">
+        <button class="navigation-button" id="prev-page">«</button>
+        <button class="navigation-button" id="next-page">»</button>
+    </div>
+<script src="scripts/script.js"></script>
+
+
+</body></html>
